@@ -2,8 +2,5 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import StorePicker from '../src/components/StorePicker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import Router from '../src/components/Router';
+ReactDOM.render(<Router />, document.getElementById('root'));
